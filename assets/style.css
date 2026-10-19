@@ -1,0 +1,101 @@
+body{
+    margin: 95;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav{
+    background-color: #123456;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 10px;
+}
+
+.hero{
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 80px  20px
+}
+
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.columns {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.hero-contact{
+    background-color: #2874a6;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+
+}
+
+.hero-contact h1{
+    font-size: 35px;
+}
+
+.hero-contact p{
+    font-size: 16px;
+}
+
+.main-section{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+
+.info,.form{
+    background-color: #2874a6;
+    padding: 25px;
+    flex: 1 1 100%;
+    border-radius: 8px;
+    maximum-width: 500px;
+    text-align: center;
+}
+
+.info img{
+    width: 100%;
+
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
